@@ -1,0 +1,105 @@
+body {
+    font-family: 'Poiret One', cursive;
+    color: rgba(190, 163, 7, 0.795);
+    background: black;
+}
+.wrapper {
+    border: solid 5px rgba(190, 163, 7, 0.795);
+    padding: 3px;
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+.page {
+    border: solid 1px rgba(190, 163, 7, 0.795);
+    height: 497px;
+    text-align: center;
+    
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline;
+}
+a {
+    color: rgba(190, 163, 7, 0.795);
+    text-decoration: none;
+}
+img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.bourbon img {
+    float: left;
+}
+/* .bourbon {
+    border-radius: 50%;
+} */
+/* .corner1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.corner2 {
+    position: relative;
+    top: 0;
+    right: 0;
+}
+.corner3 {
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+.corner4 {
+    position: relative;
+    bottom: 0;
+    left:0;
+}
+#backtri1 {
+    position: absolute;
+    z-index: auto;
+    height: 50px;
+    width: 45px;
+    border-left: 100px solid rgba(190, 163, 7, 0.795);
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-top: 100px solid transparent;
+  }
+  #backtri2 {
+      position: absolute;
+      z-index: 1;
+    height: 46px;
+    width: 41px;
+    border-left: 100px solid black;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-top: 100px solid transparent;
+  } 
+  #middletri1 {
+    position: absolute;
+    z-index: 2;
+    height: 30px;
+    width: 80px;
+    border-left: 100px solid rgba(190, 163, 7, 0.795);
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-top: 100px solid transparent;
+  }
+  #middletri2 {
+    position: absolute;
+    z-index: 3;
+  height: 76px;
+  width: 26px;
+  border-left: 100px solid black;
+  border-right: 100px solid transparent;
+  border-bottom: 100px solid transparent;
+  border-top: 100px solid transparent;
+}  */
