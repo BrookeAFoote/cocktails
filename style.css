@@ -27,6 +27,7 @@ ul {
 }
 li {
     display: inline;
+    position: relative;
 }
 a {
     color: rgba(190, 163, 7, 0.795);
@@ -36,10 +37,31 @@ img {
     border-radius: 50%;
     height: 150px;
     width: 150px;
+    box-shadow: 5px 5px 10px rgba(190, 163, 7, 0.795);
 }
-.bourbon img {
+.bourbon {
+    position: absolute;
+    top: 20px;
+    right: 16px;
+}
+.gin {
+    position: absolute;
+    top: 20px;
+    left: 16px;
+}
+.vodka {
+    position: absolute;
+    top: 200px;
+    left: 16px;
+}
+.rum {
+    position: absolute;
+    top:200px;
+    right: 16px;
+}
+/* .bourbon img {
     float: left;
-}
+} */
 /* .bourbon {
     border-radius: 50%;
 } */
