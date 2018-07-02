@@ -6,7 +6,7 @@ body {
 .wrapper {
     border: solid 5px rgba(190, 163, 7, 0.795);
     padding: 3px;
-    width: 1000px;
+    width: 800px;
     height: 500px;
     margin: 0 auto;
     margin-top: 10%;
@@ -32,32 +32,33 @@ li {
 a {
     color: rgba(190, 163, 7, 0.795);
     text-decoration: none;
+    font-weight: bold;
 }
 img {
     border-radius: 50%;
     height: 150px;
     width: 150px;
-    box-shadow: 5px 5px 10px rgba(190, 163, 7, 0.795);
+    box-shadow: 2px 2px 10px rgba(190, 163, 7, 0.795);
 }
 .bourbon {
     position: absolute;
     top: 20px;
-    right: 16px;
+    right: 40px;
 }
 .gin {
     position: absolute;
     top: 20px;
-    left: 16px;
+    left: 12px;
 }
 .vodka {
     position: absolute;
     top: 200px;
-    left: 16px;
+    left: 12px;
 }
 .rum {
     position: absolute;
     top:200px;
-    right: 16px;
+    right: 40px;
 }
 /* .bourbon img {
     float: left;
